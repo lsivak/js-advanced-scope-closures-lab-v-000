@@ -3,7 +3,7 @@ function produceDrivingRange(blockRange) {
 
   let start = parseInt(startBlock)
   let end = parseInt(endBlock)
-  let range = endBlock - startBlock
+  let range = parseInt(endBlock) - parseInt(startBlock)
   let actual = blockRange - range
   if (actual > 0) {
   return `within range by ${actual}`
