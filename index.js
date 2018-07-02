@@ -1,6 +1,6 @@
-function closures(){
+function produceDrivingRange() {
 
-return function produceDrivingRange(blockRange) {
+return function (blockRange) {
   if blockRange >= 10
   return false
   else
