@@ -4,9 +4,10 @@ function produceDrivingRange(blockRange) {
   let start = parseInt(startBlock)
   let end = parseInt(endBlock)
   let blockRange = Math.abs(end - start)
-  if blockRange < 10
+  if (blockRange < 10) {
   return `within range by ${blockRange}`
-  else
+} else {
   return `${blockRange} blocks out of range`
+}
 }
 }
