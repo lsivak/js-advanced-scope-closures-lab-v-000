@@ -7,7 +7,7 @@ function produceDrivingRange(blockRange) {
   let actual = blockRange - range
   if (actual > 0) {
   return `within range by ${actual}`
-} elsif (actual < 0) {
+} else {
   return `${actual} blocks out of range`
 }
 }
