@@ -4,7 +4,7 @@ function produceDrivingRange(blockRange) {
   let start = parseInt(startBlock)
   let end = parseInt(endBlock)
   let range = Math.abs(end - start)
-  let actual = Math.abs(blockRange - range)
+  let actual = Math.abs(range - blockRange)
   if (actual < 0) {
   return `within range by ${actual}`
 } else {
