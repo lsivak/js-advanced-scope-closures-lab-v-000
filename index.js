@@ -4,8 +4,9 @@ return function(startBlock, endBlock) {
   let start = parseInt(startBlock)
   let end = parseInt(endBlock)
   let range = Math.abs(start - end)
-  return false if range > 10
+  if range < 10
+  return `within range by ${range}`
   else
-  return true
+  return `${range} blocks out of range`
 }
 }
