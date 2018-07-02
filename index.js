@@ -5,6 +5,5 @@ return function (blockRange) {
   return false
   else
   return true
-  debugger
 }
 }
