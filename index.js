@@ -7,9 +7,9 @@ function produceDrivingRange(blockRange) {
   let blockRange = 10
   let actual = Math.abs(blockRange - range)
   if (actual > 0) {
-  return `within range by ${blockRange}`
+  return `within range by ${actual}`
 } else {
-  return `${blockRange} blocks out of range`
+  return `${actual} blocks out of range`
 }
 }
 }
