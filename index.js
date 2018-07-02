@@ -15,6 +15,6 @@ function produceTipCalculator(percentTip) {
 
     return parseInt(fare) * percentTip
     
-    return 
+  
   }
 }
