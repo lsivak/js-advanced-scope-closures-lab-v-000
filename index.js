@@ -1,7 +1,7 @@
 function produceDrivingRange() {
 
-return function (blockRange) {
-  return false if blockRange >= 10
+return function blockRange(start, end) {
+  return false if end - start >= 10
   else
   return true
 }
